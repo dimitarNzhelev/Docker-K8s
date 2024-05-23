@@ -37,6 +37,18 @@
 ### - does a litte bit of cleanup
 ### - if it takes more than 10 seconds to shutdown, docker autoamtically executes the kill command 
 ![alt text](./images/image-5.png)
+
 ## docker kill [container id]
 ### - shutdowns the container immediately
 ![alt text](./images/image-6.png)
+
+## docker exec -it [container id] [command]
+![alt text](./images/image-7.png)
+### -> -i the input is directed to the STDIN of the contianer
+### -> -t makes the text nicely formatted 
+![alt text](./images/image-8.png)
+
+# docker exec -it [container id] sh
+### - creates an interactive shell (full terminal access)
+### - sh is a program that gets executed in the container
+![alt text](./images/image-9.png)
