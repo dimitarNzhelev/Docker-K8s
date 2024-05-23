@@ -52,3 +52,4 @@
 ### - creates an interactive shell (full terminal access)
 ### - sh is a program that gets executed in the container
 ![alt text](./images/image-9.png)
+### alternative for this is <b>docker run -it [image] sh </b>(but it does not run a process on startup) 
