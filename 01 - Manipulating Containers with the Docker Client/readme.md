@@ -10,7 +10,8 @@
 ## docker run [image] command
 ![alt text](./images/image-1.png)
 ![alt text](./images/image-2.png)
-
+## docker run -p 8080:8080 [image] command
+![alt text](./images/image-10.png)
 ## docker create [image]
 
 ## docker start [container id]
